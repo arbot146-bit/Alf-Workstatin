@@ -253,3 +253,28 @@ ONGOING:
   → Monitor Grants.gov weekly for new childcare-related NOFOs
   → Build relationships with TX state agency contacts
   → Document outcomes and impact for future applications
+
+═══════════════════════════════════════════════
+SECTION 7: COMPLETED ESSAYS & ACTION PLANS (June 2026)
+═════════════════════════════════════════════
+
+WOMENSNET AMBER GRANT — COMPLETED
+  Focus: Porter, Texas local scaling & outreach
+  Status: Essay responses finalized. Ready to copy-paste into portal.
+  Action: Submit at https://womensnet.net/amber-grant/
+
+SOGAL BLACK FOUNDER STARTUP GRANT — COMPLETED
+  Focus: Minority B2B local economic multipliers
+  Status: Essay responses finalized. Ready to copy-paste into portal.
+  Action: Submit at https://www.sogalfoundation.org/
+
+TEXAS HUB CERTIFICATION — ACTION PLAN COMPLETED
+  Focus: Historically Underutilized Business certification to unlock
+        state-level contract bidding (TX Comptroller's office)
+  Status: Action plan documented. Ready to execute.
+  Action: Apply at https://comptroller.texas.gov/purchasing/vendor/hub/
+
+NEXT PRIORITY:
+  → Misha or Tobra to submit all three immediately
+  → Track submission confirmations and follow-up dates
+  → Continue with remaining 11 grant sources from Section 5 checklist
