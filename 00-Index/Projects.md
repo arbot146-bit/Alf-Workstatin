@@ -13,6 +13,7 @@ Active projects tracked in this vault.
 
 ## Recently Updated
 
+- [[2026-06-17]] — Daily note created
 - [[2026-06-16]] — Daily note created
 - [[2026-06-15]] — Daily note created
 - [[2026-06-14]] — Daily note created
@@ -26,4 +27,3 @@ Active projects tracked in this vault.
 - [[2026-06-04]] — Daily note created
 - [[2026-06-03]] — Daily note created
 - [[2026-06-02]] — Daily note created
-- [[2026-06-01]] — Daily note created
