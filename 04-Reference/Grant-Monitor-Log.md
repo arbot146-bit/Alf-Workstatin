@@ -235,3 +235,80 @@ Automated scan for childcare-related grant NOFOs. Keywords: child care, early ch
 
 *Next scan: [To be scheduled]*
 *Scan method: Grants.gov apply07 API (POST) + curl for foundation sites*
+
+---
+
+## 2026-06-22 (Monday)
+
+### Grants.gov — API Scan Results
+
+**Scan method:** Grants.gov apply07 REST API (POST) with keyword searches for "child care", "early childhood", "Head Start", "CCAMPIS", "CCDBG", "child care facility". Also downloaded full XML extract (GrantsDBExtract20260622v2.zip, 304MB).
+
+**Key finding:** API keyword search returns very broad results (592-708 hits per query) with many false positives. Most childcare-specific NOFOs identified match the previous 08-06 scan.
+
+### Newly Posted Opportunities (June 2026)
+
+**1. FY 2026 FDPIR NUTRITION EDUCATION**
+- **ID:** 362902 | **NOFO:** USDA-FNA-FDPIR-NUT-ED-2026
+- **Agency:** USDA Food and Nutrition Service | **CFDA:** 10.594
+- **Posted:** 06/22/2026 | **Closes:** 07/31/2026
+- **Status:** Posted
+- **Relevance:** Child nutrition for families with children. FDPIR serves low-income families.
+- **URL:** https://www.grants.gov/search-results-detail/362902
+
+**2. Children, Youth, and Families at Risk 4-H Military Partnership PD & TA**
+- **ID:** 362872 | **NOFO:** USDA-NIFA-SLBCD-011998
+- **Agency:** USDA National Institute of Food and Agriculture | **CFDA:** 10.521
+- **Posted:** 06/18/2026 | **Closes:** 07/20/2026
+- **Status:** Posted
+- **Relevance:** Supports children/youth/families at risk. Includes family strengthening components.
+- **URL:** https://www.grants.gov/search-results-detail/362872
+
+**3. Maternal Health Emergency Management Training (MHEMT)**
+- **ID:** 361757 | **NOFO:** HRSA-26-112
+- **Agency:** HRSA | **CFDA:** 93.688
+- **Posted:** 06/18/2026 | **Closes:** 07/20/2026
+- **Status:** Posted
+- **Relevance:** Maternal health training — indirectly supports infant/child wellbeing.
+- **URL:** https://www.grants.gov/search-results-detail/361757
+
+### XML Extract Analysis (GrantsDBExtract20260622v2.zip)
+
+- **Full database:** 304MB XML file, extract date 06/22/2026 04:40 AM EDT
+- **Childcare-relevant titles found:** 30+ unique opportunity titles matching keywords
+- **Notable:** Most are older/closed opportunities. The XML dump appears to lag behind the live API for current postings.
+- **Active programs identified in XML (various dates):**
+  - CCAMPIS (Child Care Access Means Parents in School) — closed 05/29/2026
+  - Child Care Access and Referral (multiple regional, various statuses)
+  - Head Start / Early Head Start grants (nationwide, various grantees)
+  - American Indian/Alaska Native Head Start-Child Care Partnerships
+  - Home Visiting Programs (various states)
+  - CCDF-related research grants
+
+### Foundation Scans — No Change from Previous
+
+All four foundation sites remain JS-rendered SPAs inaccessible via curl:
+
+- **WKKF:** https://www.wkkf.org/grantseekers/ — no extractable content
+- **Heising-Simons:** https://www.heisingsimons.org/ — no extractable content
+- **RWJF:** https://www.rwjf.org/en/grants.html — no extractable content
+- **AECF:** https://www.aecf.org/work/grants — no extractable content
+
+> **⚠️ Foundation sites limitation persists:** All four foundation sites use JavaScript-rendered single-page applications that cannot be scraped with curl alone. A browser-based tool (Playwright/Puppeteer) or manual review is needed for comprehensive foundation grant monitoring.
+
+### Comparison with Previous Scan (08-06-2026)
+
+- No major new childcare-specific NOFOs identified since 08-06 scan
+- The previous scan captured the most active/relevant opportunities (CCDBG, SPDG, etc.)
+- Current scan confirms those opportunities are still the primary active grants
+- API search returns very non-specific results; targeted CFDA-based search would be more effective
+
+### Recommendations
+
+1. **Enable browser toolset** for foundation site scraping (WKKF, RWJF, AECF, Heising-Simons)
+2. **Use CFDA-based search** on Grants.gov API for more targeted childcare results (CFDA 93.575, 93.592, 84.335, etc.)
+3. **Manual check** of foundation sites quarterly for new funding announcements
+4. **CCAMPIS 2026** closed 05/29/2026 — watch for FY2027 announcement (typically spring)
+
+---
+*Scan date: 2026-06-22 | Method: Grants.gov REST API + XML extract download | Notes: Cron scheduled scan*
