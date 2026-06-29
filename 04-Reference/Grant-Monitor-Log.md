@@ -4,6 +4,101 @@ Automated scan for childcare-related grant NOFOs. Keywords: child care, early ch
 
 ---
 
+## 2026-06-29 (Monday)
+
+### Grants.gov — Daily XML Extract Analysis
+
+**Scan method:** Downloaded Grants.gov daily extract (`GrantsDBExtract20260629v2.zip`, 185MB). Parsed 82,786 opportunity records. Filtered for keywords: childcare, child care, early childhood, preschool, Head Start, CCDF, STEAM education, childcare facility. Applied date cutoff: posted after 2026-06-21.
+
+**Most recent post date in extract:** 2026-06-26
+
+---
+
+#### 🏆 NEW — Directly Childcare-Relevant Posting (Not in Previous Scans)
+
+**1. FY 2026 CN Technology Innovation Grant for Child and Adult Care Food Program Integrity**
+- **NOFO:** USDA-FNA-CN-TIG-2026
+- **Agency:** USDA Food and Nutrition Service
+- **CFDA:** 10.541
+- **Posted:** 2026-06-25 | **Closes:** 2026-07-31
+- **Estimated Total Program Funding:** $8,700,000
+- **Award Ceiling:** $2,000,000 | **Floor:** $100,000
+- **Expected Number of Awards:** 10
+- **Eligible Applicants:** State agencies administering CACFP
+- **Purpose:** Competitive grants to modernize systems and strengthen the integrity of the Child and Adult Care Food Program by preventing fraud, waste, and program abuse.
+- **URL:** https://www.grants.gov/search-results-detail/362971
+- **Contact:** Carla Garcia (carla.garcia@fns.usda.gov)
+- **Notes:** **Highest relevance.** Directly targets childcare/early childhood infrastructure (CACFP is the backbone of center-based childcare nutrition funding). Excellent fit. **Deadline approaching: 7/31/2026.**
+
+---
+
+#### 📋 Previously Identified Active Opportunities (Still Open)
+
+From previous scans, the following CDC/OSEP/Opportunities are still within active windows:
+
+| Deadline | NOFO | Agency | Relevance |
+|---------|------|--------|-----------|
+| 07/02/2026 | ED-GRANTS-051326-002 | Dept of Education | OSEP Personnel Prep for Early Intervention (84.325K) |
+| 07/08/2026 | ED-GRANT-26-055 | Dept of Education | Ready To Learn Programming (84.295) |
+| 07/12/2026 | ED-GRANTS-042026-001 | Dept of Education | OSEP Personnel Prep |
+| 07/13/2026 | ED-GRANTS-051326-001 | Dept of Education | Career Pathways for Special Ed/Paras (84.325J) |
+| 07/22/2026 | HHS-2026-ACL-AOA-LRLI-0053 | ACL | Lifespan Respite Care Program: State Grants |
+| 07/28/2026 | HHS-2026-ACL-AOA-ADPI-0002 | ACL | Alzheimer's Disease Programs Initiative (ADPI) |
+| 07/31/2026 | USDA-FNA-CN-TIG-2026 | USDA FNS | **NEW** CACFP Integrity TIG |
+
+**Tangentially related ACL postings (new since last scan):**
+- **HHS-2026-ACL-AOA-TAKG-0033** — National Technical Assistance Center on Kinship and Grandfamilies (posted 06/22, closes 07/22, $1M ceiling, $3M total). Supports grandfamilies/kinship families including caregivers, children, and parents. CFDA 93.048.
+- **HHS-2026-ACL-AOA-CGNS-0032** — Advancing State Implementation of the National Strategy to Support Family Caregivers (posted 06/22, closes 07/22, CFDA 93.615).
+
+---
+
+#### ⚠️ No New Postings Found For:
+- **Head Start / Early Head Start**
+- **CCDF** (Child Care and Development Fund)
+- **Preschool Development Grants**
+- **STEAM Education**
+- **Childcare Facility** infrastructure
+
+---
+
+### Foundation Scans
+
+**W.K. Kellogg Foundation (wkkf.org):**
+- Site contains URL segment: `/awarded-grants/?public_focus_area=Early+Care+and+Education`
+- Confirmed JS-rendered SPA — no extractable data via curl
+- Their "Good Early Care and Education" initiative is a live program but open RFP cycle unknown
+- **Recommendation:** Manually check https://www.wkkf.org/grantseekers/ for currents (appears to be invite-only via wkkf.fluxx.io portal)
+
+**Robert Wood Johnson Foundation (rwjf.org):**
+- `GrantsDBExtract` page is database/directory; no open opportunities found that match childcare keywords
+- Site is JS-rendered; awarded grants are stale dir
+- No "active funding opportunities" page returned by curl
+
+**Annie E. Casey Foundation (aecf.org):**
+- 403 response on all grants pages (may be geo-blocked)
+- No extractable data
+
+**Heising-Simons Foundation (heisingsimons.org):**
+- 404 on `/grants`; no available extract
+
+> **⚠️ Foundation sites limitation persists:** All four sites are JS-rendered SPAs or permission-gated. Browser-based tooling is required for comprehensive foundation grant monitoring.
+
+---
+
+### Key Actions for Tobra
+
+1. **🔴 URGENT: USDA CACFP Integrity TIG** — Deadline 7/31/2026 (32 days). $100K-$2M per state agency. If you're a state agency or partnering with one, this is the best match. Confirm eligibility.
+2. **Check WKKF Fluxx portal** — `https://wkkf.fluxx.io/apply/grant_registration/` indicates they accept applications through a portal (not general solicitation). Determine if childcare-adjacent organizations can register.
+3. **OSEP Personnel Prep deadlines** — July window closing fast for 84.325/84.323 grants. If Little Legacy Evergreen or arms are pursuing Ed band, pull the assessors.
+
+---
+
+*Scan date: 2026-06-29 | Method: Grants.gov XML extract (daily, 82,786 records) + curl for foundations*
+*Extract file: GrantsDBExtract20260629v2.zip*
+*Total postings in extract: 82,786 | Keywords matched: 7 | Date cutoff: 2026-06-21*
+
+---
+
 ## 2026-08-06 (Monday)
 
 ### Grants.gov — High-Relevance Childcare/Early Childhood NOFOs
