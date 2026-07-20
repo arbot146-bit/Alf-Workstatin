@@ -4,6 +4,98 @@ Automated scan for childcare-related grant NOFOs. Keywords: child care, early ch
 
 ---
 
+## 2026-07-20 (Monday)
+
+### Grants.gov — REST API Scan Results
+
+**Scan method:** Grants.gov apply07 REST API (POST), 9 keyword searches ("child care", "early childhood", "preschool", "Head Start", "CCDF", "CCDBG", "CCAMPIS", "STEAM education", "childcare facility") × posted + forecasted. 87 unique opportunities deduped, scored for childcare relevance, filtered to openings after 2026-06-29 (last scan).
+
+---
+
+#### 🏆 NEW — Childcare-Relevant Forecasts (Not in Previous Scans)
+
+**1. Preschool Development Grant Birth Through Five (PDG B-5) SMART Grant** — ⭐ HIGHEST RELEVANCE
+- **NOFO:** HHS-2026-ACF-ECD-TP-0039 | **ID:** 363047
+- **Agency:** HHS — Administration for Children and Families, Office of Early Childhood Development
+- **Status:** Forecasted | **Posted:** 2026-07-02 | **Archive:** 2026-12-17
+- **Estimated Total Program Funding:** $224,000,000 | **Expected Awards:** 25
+- **Award Ceiling:** $15,000,000 | **Floor:** $500,000 | **Cost sharing REQUIRED**
+- **Purpose:** "Strategic Measurement, Analytics, and Results using Technology" — one-year investments in statewide early care and education (ECE) technology and analytic data infrastructure: strengthening coordination across the mixed-delivery system, improving program quality and access, supporting informed family choice, and using data to address needs of children birth–five.
+- **Eligibility:** Specific states and territories (to be identified in the NOFO). Individuals/foreign entities ineligible.
+- **Contact:** Richard Gonzales, 202-401-5138, Richard.Gonzales@acf.hhs.gov
+- **URL:** https://www.grants.gov/search-results-detail/363047
+- **Notes:** Full NOFO expected before archive date 12/17/2026. Direct applicant would be the **state** (TWC/Texas) — opportunity to position as sub-recipient/partner in a Texas application, or to align Little Legacy Academy data practices with the state's SMART investment.
+
+**2. Tribal Maternal, Infant, and Early Childhood Home Visiting (MIECHV) Program: Development and Implementation Grants**
+- **NOFO:** HHS-2027-ACF-ECD-TH-0003 | **ID:** 363222
+- **Agency:** HHS — ACF, Office of Early Childhood Development
+- **Status:** Forecasted | **Posted:** 2026-07-17 | **Archive:** 2027-04-01
+- **Estimated Total Program Funding:** $9,000,000 | **Expected Awards:** 18
+- **Award Ceiling:** $1,000,000 | **Floor:** $250,000 | No cost sharing
+- **Purpose:** 5-year cooperative agreements for evidence-based home visiting serving expectant families and families with children birth–kindergarten; culturally grounded services for AI/AN children; CQI systems and early childhood systems development.
+- **Eligibility:** Federally recognized Indian tribes, tribal consortia, tribal organizations, urban Indian organizations (IHCIA §4).
+- **Contact:** Moushumi Beltangady, (202) 868-9218, TribalHV@acf.hhs.gov
+- **URL:** https://www.grants.gov/search-results-detail/363222
+- **Notes:** FY2027 cycle — relevant only if partnering with a tribal organization.
+
+#### 📎 Near-Miss Postings (tangentially child-related, FYI)
+
+- **RFA-CE-27-016** (CDC) — Rigorously Evaluating Approaches to Prevent Child Sexual Abuse and Problematic Sexual Behavior. Opened 07/10/2026.
+- **HHS-2026-ACF-ACYF-CY-0159** (ACF/FYSB) — FY2026 Runaway Homeless Youth Training, TA & Capacity Building Center. Opened 07/15/2026.
+- **HHS-2026-ACF-ACYF-CF-0004** (ACF/CB) — Kinship Navigator Programs: Evaluations. Opened 07/08/2026 (companion to kinship items from 06-29 scan).
+- **HHS-2026-ACF-ACYF-CT-0042** (ACF/CB) — Foster Parents Network Analytics Hub. Opened 07/10/2026.
+
+#### ⚠️ No New Postings For:
+- **Head Start / Early Head Start** (no new NOFOs)
+- **CCDF / CCDBG** (0–1 hits, nothing new)
+- **CCAMPIS** (FY2026 closed 05/29; watch for FY2027 ~spring)
+- **STEAM education** (childcare-relevant; only generic STEM hits)
+- **Childcare facility** infrastructure
+
+#### ⏰ Deadline Reminders (previously reported, still actionable)
+
+| Deadline | NOFO | Note |
+|----------|------|------|
+| **2026-07-20 (TODAY)** | USDA-NIFA-SLBCD-011998 | Children, Youth & Families at Risk 4-H Military Partnership |
+| **2026-07-20 (TODAY)** | HRSA-26-112 | Maternal Health Emergency Management Training |
+| 2026-07-22 | HHS-2026-ACL-AOA-LRLI-0053 | Lifespan Respite Care State Grants |
+| 2026-07-22 | HHS-2026-ACL-AOA-TAKG-0033 | Kinship/Grandfamilies TA Center |
+| 2026-07-28 | HHS-2026-ACL-AOA-ADPI-0002 | Alzheimer's Disease Programs Initiative |
+| **2026-07-31 (11 days)** | USDA-FNA-CN-TIG-2026 | 🔴 CACFP Integrity TIG, $100K–$2M |
+| 2026-07-31 | USDA-FNA-FDPIR-NUT-ED-2026 | FDPIR Nutrition Education |
+| 2026-08-03 | LHC-2600-DC-0032 | HUD Lead-Safe & Healthy Homes |
+| 2026-08-06 | ED-GRANT-26-054 | Promise Neighborhoods (84.215N) |
+
+---
+
+### Foundation Scans (2026-07-20)
+
+**W.K. Kellogg Foundation (wkkf.org):** ✅ Page successfully scraped this cycle. **Application process is ALWAYS OPEN — no grantmaking cycles or deadlines.** Process: register in Fluxx portal (https://wkkf.fluxx.io) → submit Letter of Inquiry → response within 30 business days → 80% of final decisions within 60 business days of formal proposal. Early Care & Education is a core focus area. **Actionable now.**
+
+**Heising-Simons Foundation (hsfoundation.org):** Site has moved to hsfoundation.org. Policy: unsolicited requests discouraged; open RFPs announced on blog + program pages. Found on Education program page: **"California Child Care Justice Network" grant cycle — applications were due June 18, 2026 (CLOSED).** CA-specific, early learning/care workforce justice. Watch for next cycle; not applicable to Texas.
+
+**Robert Wood Johnson Foundation (rwjf.org):** Active funding opportunities page remains JS-rendered; no listings extractable via curl. Manual check: https://www.rwjf.org/en/grants/active-funding-opportunities.html
+
+**Annie E. Casey Foundation (aecf.org):** ✅ Confirmed via grant-making FAQ: **does NOT accept unsolicited proposals** — staff invite organizations directly; infrequent targeted open calls. No open calls currently listed. Suggests Philanthropy News Digest RFP bulletin for open opportunities.
+
+> **Foundation summary:** No new foundation RFPs found this cycle. WKKF's rolling LOI process remains the most actionable foundation channel.
+
+---
+
+### Key Actions for Tobra
+
+1. **🟢 WKKF LOI** — Rolling, always open. Early Care & Education is a priority area. Register at wkkf.fluxx.io and draft an LOI for Little Legacy Academy / Legacy First Foundation. No deadline pressure but no reason to wait.
+2. **🟡 PDG B-5 SMART Grant (HHS-2026-ACF-ECD-TP-0039)** — $224M for state ECE data infrastructure, NOFO dropping before mid-December. States are applicants; consider contacting TWC about partnership/sub-recipient positioning for childcare provider data components.
+3. **🔴 USDA CACFP TIG closes 7/31** — 11 days. From prior scan: eligibility is state agencies; confirm partner status or drop.
+4. **⏰ Two deadlines TODAY (7/20)** — USDA 4-H Military Partnership and HRSA MHEMT; likely too late if not already in progress.
+
+---
+
+*Scan date: 2026-07-20 | Method: Grants.gov apply07 REST API (13 queries, 87 unique results) + curl for foundation sites (WKKF, HS, RWJF, AECF all HTTP 200 this cycle)*
+*Cutoff: opportunities opened after 2026-06-29 | New childcare-relevant: 2 | Near-miss: 4*
+
+---
+
 ## 2026-06-29 (Monday)
 
 ### Grants.gov — Daily XML Extract Analysis
